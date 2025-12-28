@@ -174,11 +174,15 @@ Create `.env.local`:
 
 ```env
 # Foru.ms API
-FORUS_API_KEY=6b0fd64a-b1a5-4fbe-86c7-d1c6a5650e47
-FORUS_INSTANCE_ID=38300586-9de5-4e47-af7b-69e0a8bd47ab
+FORUS_API_KEY=your_forums_api_key
+FORUS_INSTANCE_ID=your_instance_id
 
-# Gemini API
-GEMINI_API_KEY=AIzaSyCN_rPdJiIKYy3VQABSf9Xj4V0nHxLheJA
+# Gemini AI
+GEMINI_API_KEY=your_gemini_api_key
+
+# Demo Mode
+DEMO_MODE=true
+NEXT_PUBLIC_DEMO_MODE=true
 ```
 
 ### Installation & Development
